@@ -35,7 +35,11 @@
 
 .toggleswitch > input:disabled ~ .toggleswitch-inner > .toggleswitch-on,
 .toggleswitch > input:disabled ~ .toggleswitch-inner > .toggleswitch-off {
-  background: #999;
+  background: #999 !important;
+  cursor: not-allowed;
+}
+
+.toggleswitch > input:disabled ~ .toggleswitch-inner > .toggleswitch-handle {
   cursor: not-allowed;
 }
 

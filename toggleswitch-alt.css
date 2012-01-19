@@ -49,6 +49,10 @@ div.toggleswitch {
   cursor: not-allowed;
 }
 
+.toggleswitch > input:disabled ~ .toggleswitch-inner > .toggleswitch-handle {
+  cursor: not-allowed;
+}
+
 .toggleswitch > .toggleswitch-inner {
   display: block;
   width: 13em;
