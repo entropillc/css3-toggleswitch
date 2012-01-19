@@ -33,6 +33,12 @@
   margin-left: 0;
 }
 
+.toggleswitch > input:disabled ~ .toggleswitch-inner > .toggleswitch-on,
+.toggleswitch > input:disabled ~ .toggleswitch-inner > .toggleswitch-off {
+  background: #999;
+  cursor: not-allowed;
+}
+
 .toggleswitch > .toggleswitch-inner {
   display: block;
   width: 8em;
